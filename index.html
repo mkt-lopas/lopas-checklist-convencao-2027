@@ -165,6 +165,31 @@ dialog input,dialog select{width:100%}
 .acoes-ed .btn{padding:6px 10px;font-size:13px}
 .del{font-size:13px!important;text-decoration:underline}
 @media (max-width:760px){td.c-acoes{grid-column:2/4;text-align:right!important}.acoes-ed{justify-content:flex-start}}
+@media (max-width:760px){
+  .lp-kpis{grid-template-columns:1fr 1fr;gap:8px}
+  .lp-kpi{padding:10px 12px}.lp-kpi .val{font-size:22px;margin-top:2px}.lp-kpi .pe{font-size:11.5px;margin-top:3px}
+  .lp-secao{padding-top:16px}
+  .linha .btn,.linha select{flex:1 1 auto}
+  #busca{min-width:100%}
+  .status{margin-left:0}
+  .lp-tabela td{height:auto}
+  .lp-tabela tr{grid-template-columns:42px auto auto 1fr;gap:4px 12px;align-items:center;padding:10px 12px}
+  .lp-tabela td.c-chk{grid-row:span 3;align-self:start;padding-top:2px}
+  .lp-tabela td.c-nome{grid-column:2/4;grid-row:1}
+  .lp-tabela td.c-acoes{grid-column:4;grid-row:1;justify-self:end;text-align:right!important}
+  .lp-tabela td.c-obs{grid-column:2/5}
+  .lp-tabela td.c-obs:empty{display:none}
+  .lp-tabela td{font-size:13px}
+  .btn-ed{padding:4px 10px;font-size:12px}
+  .quando{white-space:normal;font-size:10px;line-height:1.2;margin-top:3px}
+  .lp-tabela tr.editando{grid-template-columns:42px 1fr 1fr 1fr;background:var(--lp-laranja-suave)}
+  .lp-tabela tr.editando td{background:transparent}
+  .lp-tabela tr.editando td.c-nome{grid-column:2/5}
+  .lp-tabela tr.editando td.c-acoes{grid-column:2/5;grid-row:auto;justify-self:stretch}
+  .acoes-ed{justify-content:flex-start}
+  .lp-tabela tr.editando select{padding:6px 2px;font-size:13px}
+  dialog{padding:18px}
+}
 </style>
 <section class="lp-secao">
   <div class="lp-kpis">
