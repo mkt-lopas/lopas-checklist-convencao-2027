@@ -1,4 +1,4 @@
--- Conversão 2027 — checklist de entrega de camisas e credenciais (rodar uma vez no SQL Editor do Supabase)
+-- Convenção 2027 — checklist de entrega de camisas e credenciais (rodar uma vez no SQL Editor do Supabase)
 create table if not exists public.chk_entregas (
   id           text primary key,
   grupo        text not null,
